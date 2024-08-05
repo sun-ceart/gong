@@ -19,3 +19,11 @@ int main()
 	printf("c1=%c c2=%c c3=%c", c1, c2, c3);
 	return 0;
 }
+#include <stdio.h>
+int main()
+{
+	char letter = 'A';
+	letter = letter + 32;
+	printf("letter=%c", letter);
+	return 0;
+}
